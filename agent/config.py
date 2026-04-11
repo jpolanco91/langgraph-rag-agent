@@ -4,7 +4,7 @@ Use the retriever tool available to answer questions about the stock market perf
 If you need to look up some information before asking a follow up question, you are allowed to do that!
 Please always cite the specific parts of the documents you use in your answers.
 """
-VECTOR_DB_URI = "http://localhost:19530"
+VECTOR_DB_URI = "http://standalone:19530"
 VECTOR_INDEX_PARAMS = {
 	"index_type": "FLAT",
 	"metric_type": "L2"
